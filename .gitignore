@@ -1,3 +1,4 @@
+
 # Prerequisites
 *.d
 
@@ -14,7 +15,6 @@
 # Compiled Dynamic libraries
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
@@ -24,9 +24,20 @@
 *.lai
 *.la
 *.a
-*.lib
 
 # Executables
 *.exe
 *.out
 *.app
+
+# Other generated files
+*.idb
+*.ilk
+*.tlog
+*.suo
+*.user
+
+# Directories
+.vs/
+.vscode/
+x64/
